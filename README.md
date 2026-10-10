@@ -1,6 +1,6 @@
-# Android Kotlin App Development with VS Code
+# Android Kotlin App Development Template with VS Code
 
-This project is a minimal Android/Kotlin Compose app set up for development in VS Code without Android Studio. The folder and file structure already complete for a minimal build of an Android app. What is needed is local environment setup for VS Code, JDK, Kotlin and SDK for development as per guide below.
+This project is a minimal Android/Kotlin Compose app template set up for development in VS Code without Android Studio. The folder and file structure already complete for a minimal build of an Android app. What is needed is local environment setup for VS Code, JDK, Kotlin and SDK for development as per guide below.
 
 ## Project structure
 
@@ -14,7 +14,7 @@ mobile/kotlin-test/
 ├── gradlew.bat             # gradle
 ├── settings.gradle.kts     # gradle
 ├── local.properties        # local-only, do not commit              
-├── hello.kt                # kotlin sample for jar test - can be excluded for android build
+├── hello.kt                # kotlin sample for jar test - can be excluded for real android build
 ├── app/                    # android
 │   ├── build.gradle.kts    # gradle
 │   └── src/                # android
@@ -298,6 +298,7 @@ This repo already contains an ignore file for the common generated files.
 - Android Studio is not required.
 - The Java/Kotlin/Android SDK paths are local machine settings and should be kept out of Git.
 - If the Gradle version or Android SDK version is mismatched, the first build will usually fail with a Gradle compatibility error; fix the installed SDK packages and/or wrapper version accordingly.
+- Can ask AI to auto rename all related folders/files according to package name wanted.
 
 ## Quick start summary
 
