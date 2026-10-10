@@ -78,6 +78,8 @@ Install these VS Code extensions:
 
 - Kotlin
 - Gradle for Java
+- Compose Preview (optional) - for Compose preview
+- Kotlin Jump (optional) - for Kotlin navigation
 
 Add local environment variables in your VS Code settings or in your shell.
 
